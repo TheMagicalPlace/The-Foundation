@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd42e34-a20c-4197-b6bf-d1740698a4d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cards/Black Cards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/Orange Cards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/Red Cards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/White Cards" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards/Yellow Cards" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Foundation/CardDraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cards/Purple Cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cards/Purple Cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cards/BlackCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cards/BlueCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cards/GreenCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cards/OrangeCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cards/PurpleCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cards/RedCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cards/WhiteCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cards/YellowCards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,55 +25,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cards/Green Cards.py">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/GreenCards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="120" column="16" selection-start-line="1" selection-end-line="120" selection-end-column="16" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cards/Blue Cards.py">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/OrangeCards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="98" column="20" lean-forward="true" selection-end-line="115" selection-end-column="16" />
-              <folding>
-                <element signature="e#675#3669#0" />
-              </folding>
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cards/Orange Cards.py">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/CardDraw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="225" column="56" selection-start-line="225" selection-start-column="56" selection-end-line="225" selection-end-column="56" />
-              <folding>
-                <element signature="e#675#3669#0" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cards/Purple Cards.py">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/BlueCards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="153">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cards/Black Cards.py">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/BlackCards.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="107" selection-end-column="16" />
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
               <folding>
-                <element signature="e#108#177#0" />
-                <element signature="e#177#309#0" />
                 <element signature="e#345#3504#0" />
                 <element signature="e#595#3504#0" />
                 <element signature="e#3548#4057#0" />
@@ -81,13 +79,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cards/White Cards">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/PurpleCards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/WhiteCards.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
               <folding>
-                <element signature="e#108#190#0" />
-                <element signature="e#228#360#0" />
                 <element signature="e#395#3262#0" />
                 <element signature="e#528#3262#0" />
                 <element signature="e#3304#3688#0" />
@@ -101,15 +115,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cards/Yellow Cards">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/YellowCards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
               <folding>
-                <element signature="e#108#190#0" />
-                <element signature="e#228#360#0" />
-                <element signature="e#395#3262#0" />
-                <element signature="e#427#487#0" />
                 <element signature="e#528#3262#0" />
                 <element signature="e#626#689#0" />
                 <element signature="e#705#734#0" />
@@ -125,10 +135,8 @@
                 <element signature="e#2695#2715#0" />
                 <element signature="e#2759#2779#0" />
                 <element signature="e#2826#3239#0" />
-                <element signature="e#3304#3675#0" />
                 <element signature="e#3310#3537#1" />
                 <element signature="e#3518#3575#0" />
-                <element signature="e#3625#3675#0" />
                 <element signature="e#3824#4286#0" />
                 <element signature="e#3815#4005#1" />
                 <element signature="e#4116#4186#0" />
@@ -151,13 +159,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cards/Red Cards.py">
+        <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/RedCards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="167" selection-start-line="167" selection-end-line="167" />
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
               <folding>
                 <element signature="e#104#218#0" />
-                <element signature="e#260#392#0" />
                 <element signature="e#423#3666#0" />
                 <element signature="e#675#3669#0" />
                 <element signature="e#3709#4257#0" />
@@ -170,15 +177,6 @@
                 <element signature="e#7722#8266#0" />
                 <element signature="e#8302#8853#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/init.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -209,6 +207,32 @@
         <option value="$PROJECT_DIR$/Cards/Red Cards.py" />
         <option value="$PROJECT_DIR$/Cards/White Cards" />
         <option value="$PROJECT_DIR$/Cards/Orange Cards.py" />
+        <option value="$PROJECT_DIR$/Cards/PurpleCards.py" />
+        <option value="$PROJECT_DIR$/Cards/OrangeCards.py" />
+        <option value="$PROJECT_DIR$/Cards/BlueCards.py" />
+        <option value="$PROJECT_DIR$/Cards/GreenCards.py" />
+        <option value="$PROJECT_DIR$/Cards/RedCards.py" />
+        <option value="$PROJECT_DIR$/Cards/YellowCards.py" />
+        <option value="$PROJECT_DIR$/Cards/WhiteCards.py" />
+        <option value="$PROJECT_DIR$/Cards/BlackCards.py" />
+        <option value="$PROJECT_DIR$/CardDraw.py" />
+        <option value="$PROJECT_DIR$/Cards/__init__.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/Cards/setup.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/The Foundation/Cards/__init__.py" />
+        <option value="$PROJECT_DIR$/The Foundation/CardDraw.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/CardDraw.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/__init__.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/RedCards.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/YellowCards.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/WhiteCards.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/PurpleCards.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/BlackCards.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/BlueCards.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/GreenCards.py" />
+        <option value="$PROJECT_DIR$/The_Foundation/Cards/OrangeCards.py" />
       </list>
     </option>
   </component>
@@ -237,6 +261,12 @@
             <path>
               <item name="THE FOUNDATION" type="b2602c69:ProjectViewProjectNode" />
               <item name="THE FOUNDATION" type="462c0819:PsiDirectoryNode" />
+              <item name="The_Foundation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="THE FOUNDATION" type="b2602c69:ProjectViewProjectNode" />
+              <item name="THE FOUNDATION" type="462c0819:PsiDirectoryNode" />
+              <item name="The_Foundation" type="462c0819:PsiDirectoryNode" />
               <item name="Cards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,6 +284,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tony\PycharmProjects\THE FOUNDATION\The Foundation" />
+      <recent name="C:\Users\Tony\PycharmProjects\THE FOUNDATION" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -266,8 +302,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Blue Cards">
-    <configuration name="Blue Cards" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.CardDraw (2)">
+    <configuration name="BlackCards" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="THE FOUNDATION" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,11 +311,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cards" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/The_Foundation/Cards" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cards/Blue Cards.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/The_Foundation/Cards/BlackCards.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Green Cards" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CardDraw (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="THE FOUNDATION" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,11 +332,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cards" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/The Foundation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cards/Green Cards.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/The Foundation/CardDraw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CardDraw (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="THE FOUNDATION" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/The_Foundation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/The_Foundation/CardDraw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="THE FOUNDATION" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/The_Foundation/Cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/The_Foundation/Cards/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="THE FOUNDATION" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,8 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Blue Cards" />
-        <item itemvalue="Python.Green Cards" />
+        <item itemvalue="Python.CardDraw (2)" />
+        <item itemvalue="Python.BlackCards" />
+        <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.CardDraw (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563287627023</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="All cards for initial version implimented - none of them do anything yet&#10;outside of give basic information when printed">
+      <created>1563290629703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563290629703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -371,41 +480,65 @@
     <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32955405" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960598" visible="true" weight="0.32955405" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.500394" side_tool="true" visible="true" weight="0.32955405" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49881798" weight="0.32955405" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49960598" weight="0.32955405" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32955405" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32955405" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32955405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49960598" visible="true" weight="0.32955405" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49960598" weight="0.32955405" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.500394" side_tool="true" weight="0.32955405" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32955405" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setting up  framework for card system" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up  framework for card system" />
+    <MESSAGE value="All cards for initial version implimented - none of them do anything yet&#10;outside of give basic information when printed" />
+    <option name="LAST_COMMIT_MESSAGE" value="All cards for initial version implimented - none of them do anything yet&#10;outside of give basic information when printed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/The_Foundation/Cards/BlackCards.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cards/Green Cards.py">
+    <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="120" column="16" selection-start-line="1" selection-end-line="120" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cards/Purple Cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -416,33 +549,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cards/White Cards">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Foundation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="81" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="81" />
           <folding>
-            <element signature="e#108#190#0" />
-            <element signature="e#228#360#0" />
-            <element signature="e#395#3262#0" />
-            <element signature="e#528#3262#0" />
-            <element signature="e#3304#3688#0" />
-            <element signature="e#3725#4096#0" />
-            <element signature="e#4165#4563#0" />
-            <element signature="e#4602#4988#0" />
-            <element signature="e#5053#5417#0" />
+            <element signature="e#1#5#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cards/Yellow Cards">
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/RedCards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
           <folding>
-            <element signature="e#108#190#0" />
-            <element signature="e#228#360#0" />
-            <element signature="e#395#3262#0" />
-            <element signature="e#427#487#0" />
+            <element signature="e#104#218#0" />
+            <element signature="e#423#3666#0" />
+            <element signature="e#675#3669#0" />
+            <element signature="e#3709#4257#0" />
+            <element signature="e#4345#4814#0" />
+            <element signature="e#4834#5308#0" />
+            <element signature="e#5354#5828#0" />
+            <element signature="e#5925#6582#0" />
+            <element signature="e#6619#7133#0" />
+            <element signature="e#7179#7693#0" />
+            <element signature="e#7722#8266#0" />
+            <element signature="e#8302#8853#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/YellowCards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+          <folding>
             <element signature="e#528#3262#0" />
             <element signature="e#626#689#0" />
             <element signature="e#705#734#0" />
@@ -458,10 +620,8 @@
             <element signature="e#2695#2715#0" />
             <element signature="e#2759#2779#0" />
             <element signature="e#2826#3239#0" />
-            <element signature="e#3304#3675#0" />
             <element signature="e#3310#3537#1" />
             <element signature="e#3518#3575#0" />
-            <element signature="e#3625#3675#0" />
             <element signature="e#3824#4286#0" />
             <element signature="e#3815#4005#1" />
             <element signature="e#4116#4186#0" />
@@ -482,35 +642,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cards/Red Cards.py">
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/WhiteCards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
           <folding>
-            <element signature="e#104#218#0" />
-            <element signature="e#260#392#0" />
-            <element signature="e#423#3666#0" />
-            <element signature="e#675#3669#0" />
-            <element signature="e#3709#4257#0" />
-            <element signature="e#4345#4814#0" />
-            <element signature="e#4834#5308#0" />
-            <element signature="e#5354#5828#0" />
-            <element signature="e#5925#6582#0" />
-            <element signature="e#6619#7133#0" />
-            <element signature="e#7179#7693#0" />
-            <element signature="e#7722#8266#0" />
-            <element signature="e#8302#8853#0" />
+            <element signature="e#395#3262#0" />
+            <element signature="e#528#3262#0" />
+            <element signature="e#3304#3688#0" />
+            <element signature="e#3725#4096#0" />
+            <element signature="e#4165#4563#0" />
+            <element signature="e#4602#4988#0" />
+            <element signature="e#5053#5417#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cards/Black Cards.py">
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/BlackCards.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="107" selection-end-column="16" />
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
           <folding>
-            <element signature="e#108#177#0" />
-            <element signature="e#177#309#0" />
             <element signature="e#345#3504#0" />
             <element signature="e#595#3504#0" />
             <element signature="e#3548#4057#0" />
@@ -522,23 +674,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cards/Blue Cards.py">
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/BlueCards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="98" column="20" lean-forward="true" selection-end-line="115" selection-end-column="16" />
-          <folding>
-            <element signature="e#675#3669#0" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cards/Orange Cards.py">
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/GreenCards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="225" column="56" selection-start-line="225" selection-start-column="56" selection-end-line="225" selection-end-column="56" />
-          <folding>
-            <element signature="e#675#3669#0" />
-          </folding>
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/OrangeCards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The_Foundation/Cards/PurpleCards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The_Foundation/CardDraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
