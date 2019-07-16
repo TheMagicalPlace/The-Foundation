@@ -1,22 +1,21 @@
 from random import randint
-class PurpleCardSetup():
-    card_type = 'Purple'
+class WhiteCardSetup():
+
+    card_type = 'White'
 
     def __init__(self):
-        self.cardlist = [self.Purple01]
+        self.cardlist = [self.White01,self.White02,self.White03,self.White04,self.White05]
+
     def card_selector(self):
         card_id = randint(1,len(self.cardlist))
         card = [x for x in self.cardlist if card_id == x.id][0]
         return print(card())
 
-    class purpleCards():
+    class whiteCards():
 
         def __init__(self):
-            self.card_type = 'BLUE'
+            self.card_type = 'WHITE'
             self.card_title = 'n/a'
-            self.subtitle = 'n/a'
-            self.type = 'n/a'
-            self.stats = {'atk':-1,'def':-1,'hp':-1}
         def __str__(self):
 
             title = self.card_title.split() if ' ' in self.card_title else [self.card_title]
@@ -35,7 +34,7 @@ class PurpleCardSetup():
            |                     |
            |                     |
            |                     |
-           |'''+' ATK:{0[0]:^2}/DEF:{0[1]:^2}/HP:{0[2]:^2} '.format(list(self.stats.values()))+'''|
+           |                     |
             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
             '''\
             if len(title) == 1 else\
@@ -53,7 +52,7 @@ class PurpleCardSetup():
            |                     |
            |                     |
            |                     |
-           |'''+' ATK:{0[0]:^2}/DEF:{0[1]:^2}/HP:{0[2]:^2} '.format(list(self.stats.values()))+'''|
+           |                     |
             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
                  '''\
             if len(title) == 2 else\
@@ -71,7 +70,7 @@ class PurpleCardSetup():
            |                     |
            |                     |
            |                     |
-           |'''+' ATK:{0[0]:^2}/DEF:{0[1]:^2}/HP:{0[2]:^2} '.format(list(self.stats.values()))+'''|
+           |                     |
             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
                  '''\
             if len(title) == 3 else \
@@ -89,25 +88,82 @@ class PurpleCardSetup():
            |                     |
            |                     |
            |                     |
-           |'''+' ATK:{0[0]:^2}/DEF:{0[1]:^2}/HP:{0[2]:^2} '.format(list(self.stats.values()))+'''|
+           |                     |
             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
              '''
 
 
             return e
 
-    class Purple01(purpleCards):
+    class White01(whiteCards):
 
-        """The great and terrible Mr. Moon! Disrupts the tides and summons werewolves across the map!
-        Not made of cheese! Maybe made of cheese!"""
+        """Description: You get ahold of the Overseer’s Secret Stuff. You are healed!
+
+            Effect: When used, completely heals the player of all ailments."""
         id = 1
 
         def __init__(self):
             super().__init__()
-            self.card_title = 'Mr. Moon'
-            self.subtitle = 'Waxing and Waning'
-            self.type = 'Wondertainment'
-            self.stats = {'atk': 19, 'def': 20, 'hp': 20}
+            self.card_title = 'Elixir'
+
+        def effect_on_action(self):
+            # TODO - implementation of effect
+            pass
+
+    class White02(whiteCards):
+
+        """Description: In a stroke of good luck, you discover a road untouched by danger!
+
+            Effect: Allows a player to bypass a dangerous environmental hazard unharmed."""
+        id = 2
+
+        def __init__(self):
+            super().__init__()
+            self.card_title = 'Safe Passageway'
+
+        def effect_on_action(self):
+            # TODO - implementation of effect
+            pass
+
+    class White03(whiteCards):
+
+        """Description: Your efforts do not go unnoticed! You are promoted to Senior Junior Researcher!
+
+            Effect: Player gains a permanent +2 to ATK and +3 to DEF."""
+        id = 3
+
+        def __init__(self):
+            super().__init__()
+            self.card_title = 'Promotion'
+
+        def effect_on_action(self):
+            # TODO - implementation of effect
+            pass
+
+    class White04(whiteCards):
+
+        """Description: The Cosmic Starfish brushes against you with one of its Five arms. You are empowered!
+
+            Effect: Player receives +10 ATK / +10 DEF / +8 SPD / +10 HP for three turns."""
+        id = 4
+
+        def __init__(self):
+            super().__init__()
+            self.card_title = 'Brushed By The Starfish'
+
+        def effect_on_action(self):
+            # TODO - implementation of effect
+            pass
+
+    class White05(whiteCards):
+
+        """Description: You are resurrected!
+
+        Effect: If a player is killed while holding this card, the player is instantly returned to half health."""
+        id = 5
+        def __init__(self):
+            super().__init__()
+            self.card_title = 'Angel of Mercy'
 
         def effect_on_action(self):
             # TODO - implementation of effect

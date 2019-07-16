@@ -1,22 +1,19 @@
 from random import randint
-class PurpleCardSetup():
-    card_type = 'Purple'
+class YellowCardSetup():
+    card_type = 'Yellow'
 
     def __init__(self):
-        self.cardlist = [self.Purple01]
+        self.cardlist = [self.White01,self.White02,self.White03,self.White04,self.White05]
     def card_selector(self):
         card_id = randint(1,len(self.cardlist))
         card = [x for x in self.cardlist if card_id == x.id][0]
         return print(card())
 
-    class purpleCards():
+    class yellowCards():
 
         def __init__(self):
-            self.card_type = 'BLUE'
+            self.card_type = 'YELLOW'
             self.card_title = 'n/a'
-            self.subtitle = 'n/a'
-            self.type = 'n/a'
-            self.stats = {'atk':-1,'def':-1,'hp':-1}
         def __str__(self):
 
             title = self.card_title.split() if ' ' in self.card_title else [self.card_title]
@@ -35,7 +32,7 @@ class PurpleCardSetup():
            |                     |
            |                     |
            |                     |
-           |'''+' ATK:{0[0]:^2}/DEF:{0[1]:^2}/HP:{0[2]:^2} '.format(list(self.stats.values()))+'''|
+           |                     |
             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
             '''\
             if len(title) == 1 else\
@@ -53,7 +50,7 @@ class PurpleCardSetup():
            |                     |
            |                     |
            |                     |
-           |'''+' ATK:{0[0]:^2}/DEF:{0[1]:^2}/HP:{0[2]:^2} '.format(list(self.stats.values()))+'''|
+           |                     |
             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
                  '''\
             if len(title) == 2 else\
@@ -71,7 +68,7 @@ class PurpleCardSetup():
            |                     |
            |                     |
            |                     |
-           |'''+' ATK:{0[0]:^2}/DEF:{0[1]:^2}/HP:{0[2]:^2} '.format(list(self.stats.values()))+'''|
+           |                     |
             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
                  '''\
             if len(title) == 3 else \
@@ -89,25 +86,85 @@ class PurpleCardSetup():
            |                     |
            |                     |
            |                     |
-           |'''+' ATK:{0[0]:^2}/DEF:{0[1]:^2}/HP:{0[2]:^2} '.format(list(self.stats.values()))+'''|
+           |                     |
             ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
              '''
 
 
             return e
 
-    class Purple01(purpleCards):
+    class Yellow01(yellowCards):
 
-        """The great and terrible Mr. Moon! Disrupts the tides and summons werewolves across the map!
-        Not made of cheese! Maybe made of cheese!"""
+        """DDescription: Your friends in the Insurgency carry out a coup on one of your rivals.
+        To the victor goes the spoils! I’m sure they won’t take it personally.
+
+        Effect: Receive all of the earnings of a random player."""
         id = 1
 
         def __init__(self):
             super().__init__()
-            self.card_title = 'Mr. Moon'
-            self.subtitle = 'Waxing and Waning'
-            self.type = 'Wondertainment'
-            self.stats = {'atk': 19, 'def': 20, 'hp': 20}
+            self.card_title = 'A Little Insurgency'
+
+        def effect_on_action(self):
+            # TODO - implementation of effect
+            pass
+
+    class Yellow02(yellowCards):
+
+        """Description: You are offered a grant for your contributions to academia.
+        Congratulations! Now hurry up and spend it before the Foundation scoops you up.
+
+        Effect: Receive $300."""
+        id = 2
+
+        def __init__(self):
+            super().__init__()
+            self.card_title = 'Research Grant'
+
+        def effect_on_action(self):
+            # TODO - implementation of effect
+            pass
+
+    class Yellow03(yellowCards):
+
+        """Description: You discover a bounty of gold from a ruined civilization! Enjoy your blood money!
+
+            Effect: Receive $300."""
+        id = 3
+
+        def __init__(self):
+            super().__init__()
+            self.card_title = 'Lost Aztec Gold'
+
+        def effect_on_action(self):
+            # TODO - implementation of effect
+            pass
+
+    class Yellow04(yellowCards):
+
+        """Description: You negotiate a deal between The Factory and Dr. Wondertainment, and earn big dividends for your work!
+
+            Effect: Receive $400."""
+        id = 4
+
+        def __init__(self):
+            super().__init__()
+            self.card_title = 'Business Deal'
+
+        def effect_on_action(self):
+            # TODO - implementation of effect
+            pass
+
+    class Yellow05(yellowCards):
+
+        """Description: Mr. Money is about to make you Mr. Wealthy!
+
+            Effect: Receive $5000."""
+        id = 5
+
+        def __init__(self):
+            super().__init__()
+            self.card_title = 'Mr. Money’s Jackpot Extravaganza'
 
         def effect_on_action(self):
             # TODO - implementation of effect
